@@ -1,0 +1,31 @@
+# Rust
+**/target/
+**/Cargo.lock
+**/.cargo-ok
+
+# cargo-compete
+**/testcases/
+
+# Node.js
+node_modules/
+dist/
+*.log
+.npm/
+.pnp.*
+
+# TypeScript
+*.tsbuildinfo
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Env
+.env
+.env.local
+
+# acc/oj
+.cache/
