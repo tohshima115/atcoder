@@ -1,0 +1,16 @@
+{
+  "name": "atcoder-tools",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "tsx fetch-problem.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/turndown": "^5.0.5",
+    "cheerio": "^1.0.0",
+    "tsx": "^4.21.0",
+    "turndown": "^7.2.0",
+    "typescript": "^5.6.0"
+  }
+}

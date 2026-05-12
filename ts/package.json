@@ -1,0 +1,14 @@
+{
+  "name": "atcoder-ts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run": "tsx",
+    "test": "oj t -c 'tsx main.ts' -d tests"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.6.0"
+  }
+}

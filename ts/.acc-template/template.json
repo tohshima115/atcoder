@@ -1,0 +1,6 @@
+{
+  "task": {
+    "program": ["main.ts"],
+    "submit": "main.ts"
+  }
+}
