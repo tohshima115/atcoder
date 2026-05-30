@@ -69,16 +69,31 @@ function autoDetect(): { contest: string; problem?: string } | null {
   // Use APMD_PWD if set (apmd shell function passes the caller's cwd here,
   // because the subshell may have cd'd elsewhere). Fall back to process.cwd().
   const cwd = process.env.APMD_PWD || process.cwd();
-  // ts/abcXXX/<letter>/  → contest + problem
-  const tsM = cwd.match(/\/ts\/([a-z]+\d+)\/([a-z][a-z0-9]?)(?:\/|$)/);
+  // ts/<contest>/<problem>/  → contest + problem (e.g. abcXXX or tessoku-book)
+  const tsM = cwd.match(/\/ts\/([a-z][a-z0-9-]+)\/([a-z][a-z0-9]*)(?:\/|$)/);
   if (tsM) return { contest: tsM[1], problem: tsM[2] };
-  // rust/abcXXX/  → contest only (problem must be specified)
-  const rustM = cwd.match(/\/rust\/([a-z]+\d+)(?:\/|$)/);
+  // rust/<contest>/  → contest only (e.g. abcXXX or tessoku-book)
+  const rustM = cwd.match(/\/rust\/([a-z][a-z0-9-]+)(?:\/|$)/);
   if (rustM) return { contest: rustM[1] };
   return null;
 }
 
+// For non-standard contests (e.g. tessoku-book), read the actual URL from Cargo.toml.
+function readUrlFromCargo(contest: string, alias: string): string | null {
+  const cwd = process.env.APMD_PWD || process.cwd();
+  const m = cwd.match(new RegExp(`^(.*\\/rust\\/${contest.replace("-", "\\-")})(?:\\/|$)`));
+  if (!m) return null;
+  const cargoPath = join(m[1], "Cargo.toml");
+  if (!existsSync(cargoPath)) return null;
+  const cargo = readFileSync(cargoPath, "utf8");
+  const re = new RegExp(`alias\\s*=\\s*"${alias}"[^}]*problem\\s*=\\s*"([^"]+)"`);
+  const hit = cargo.match(re);
+  return hit ? hit[1] : null;
+}
+
 function buildUrl(contest: string, problem: string): string {
+  const cargoUrl = readUrlFromCargo(contest, problem);
+  if (cargoUrl) return cargoUrl;
   return `https://atcoder.jp/contests/${contest}/tasks/${contest}_${problem}`;
 }
 
