@@ -1,4 +1,5 @@
 use proconio::input;
+use std::collections::HashSet;
 
 fn main() {
     input! {
@@ -8,12 +9,11 @@ fn main() {
         q: [i64; n],
     }
     let mut ans = false;
-    'outer: for &vp in &p{
-        for &vq in &q{
-            if vp + vq == k {
-                ans = true;
-                break 'outer;
-            };
+    let q_set: HashSet<i64> = q.iter().cloned().collect();
+    for &vp in &p{
+        if q_set.contains(&(k - vp)) {
+            ans = true;
+            break;
         };
     };
     println!("{}", if ans {"Yes"} else {"No"});
