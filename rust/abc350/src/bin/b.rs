@@ -2,9 +2,9 @@ use proconio::input;
 
 fn main() {
     input! {
-        n: i64,
+        n: usize,
         q: usize,
-        t: [i64; q],
+        t: [usize; q],
     }
     let mut teeth = vec![true; n+1];
     for i in 0..q{
