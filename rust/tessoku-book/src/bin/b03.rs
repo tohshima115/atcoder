@@ -6,17 +6,14 @@ fn main() {
         a: [i64; n],
     }
     let mut ans = false;
-    'outer: for &v1 in &a{
-        for &v2 in &a{
-            if v1 > v2 {
-                for &v3 in &a{
-                    if v2 > v3 && v1 + v2 + v3 == 1000{
-                        ans = true;
-                        break 'outer;
-                    }
+    'outer: for i in 0..n-2{
+        for j in i..n-1{
+            for k in j..n{
+                if a[i] + a[j] + a[k] == 1000{
+                    ans = true;
+                    break 'outer;
                 }
             }
-
         }
     }
     println!("{}", if ans {"Yes"} else {"No"});
