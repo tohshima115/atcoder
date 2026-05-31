@@ -9,12 +9,11 @@ fn main() {
         q: [i64; n],
     }
     let mut ans = false;
-    let q_set: HashSet<i64> = q.iter().cloned().collect();
-    for &vp in &p{
-        if q_set.contains(&(k - vp)) {
+    let q_set: HashSet<i64> = q.iter().copied().collect();
+    for &v in &p{
+        if q_set.contains(&(k - v)){
             ans = true;
-            break;
-        };
-    };
+        }
+    }
     println!("{}", if ans {"Yes"} else {"No"});
 }
