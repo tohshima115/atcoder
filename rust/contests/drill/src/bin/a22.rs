@@ -4,10 +4,10 @@ fn main() {
     input! {
         n: i64,
     }
-    let mut ans: i64 = 0;
+    let mut ans: i64 = 1;
     for i in (0..18).rev(){
-        if [n / 10_i64.pow(i as u32)] >= `[i64; 1]`{
-            ans = i + 1;
+        if n / 10_i64.pow(i as u32) >= 1{
+            ans += i;
             break;
         }
     };
