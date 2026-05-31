@@ -11,5 +11,5 @@ fn main() {
         if v == x {ans = true};
         break; 
     };
-    println!("{}", n);
+    println!("{}", if ans == true {"Yes"} else {"No"});
 }
