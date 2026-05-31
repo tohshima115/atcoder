@@ -1,0 +1,21 @@
+---
+type: Batch
+timelimit: 2000ms
+match: Lines
+
+cases:
+  - name: sample1
+    in: |
+      level
+    out: |
+      Yes
+  - name: sample2
+    in: |
+      hello
+    out: |
+      No
+  - name: sample3
+    in: |
+      a
+    out: |
+      Yes

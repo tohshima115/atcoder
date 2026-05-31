@@ -44,6 +44,14 @@ drill-a37 = { alias = "a37", problem = "https://atcoder.jp/contests/drill/tasks/
 drill-a38 = { alias = "a38", problem = "https://atcoder.jp/contests/drill/tasks/drill_a38" }
 drill-a39 = { alias = "a39", problem = "https://atcoder.jp/contests/drill/tasks/drill_a39" }
 drill-a40 = { alias = "a40", problem = "https://atcoder.jp/contests/drill/tasks/drill_a40" }
+drill-a41 = { alias = "a41", problem = "https://atcoder.jp/contests/drill/tasks/drill_a41" }
+drill-a42 = { alias = "a42", problem = "https://atcoder.jp/contests/drill/tasks/drill_a42" }
+drill-a43 = { alias = "a43", problem = "https://atcoder.jp/contests/drill/tasks/drill_a43" }
+drill-a44 = { alias = "a44", problem = "https://atcoder.jp/contests/drill/tasks/drill_a44" }
+drill-a45 = { alias = "a45", problem = "https://atcoder.jp/contests/drill/tasks/drill_a45" }
+drill-a46 = { alias = "a46", problem = "https://atcoder.jp/contests/drill/tasks/drill_a46" }
+drill-a47 = { alias = "a47", problem = "https://atcoder.jp/contests/drill/tasks/drill_a47" }
+drill-a48 = { alias = "a48", problem = "https://atcoder.jp/contests/drill/tasks/drill_a48" }
 drill-b1 = { alias = "b1", problem = "https://atcoder.jp/contests/drill/tasks/drill_b1" }
 drill-b2 = { alias = "b2", problem = "https://atcoder.jp/contests/drill/tasks/drill_b2" }
 drill-b3 = { alias = "b3", problem = "https://atcoder.jp/contests/drill/tasks/drill_b3" }
@@ -209,6 +217,38 @@ path = "src/bin/a39.rs"
 [[bin]]
 name = "drill-a40"
 path = "src/bin/a40.rs"
+
+[[bin]]
+name = "drill-a41"
+path = "src/bin/a41.rs"
+
+[[bin]]
+name = "drill-a42"
+path = "src/bin/a42.rs"
+
+[[bin]]
+name = "drill-a43"
+path = "src/bin/a43.rs"
+
+[[bin]]
+name = "drill-a44"
+path = "src/bin/a44.rs"
+
+[[bin]]
+name = "drill-a45"
+path = "src/bin/a45.rs"
+
+[[bin]]
+name = "drill-a46"
+path = "src/bin/a46.rs"
+
+[[bin]]
+name = "drill-a47"
+path = "src/bin/a47.rs"
+
+[[bin]]
+name = "drill-a48"
+path = "src/bin/a48.rs"
 
 [[bin]]
 name = "drill-b1"
