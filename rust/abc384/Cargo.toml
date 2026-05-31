@@ -5,10 +5,25 @@ edition = "2021"
 
 [package.metadata.cargo-compete.bin]
 abc384-a = { alias = "a", problem = "https://atcoder.jp/contests/abc384/tasks/abc384_a" }
+abc384-b = { alias = "b", problem = "https://atcoder.jp/contests/abc384/tasks/abc384_b" }
+abc384-c = { alias = "c", problem = "https://atcoder.jp/contests/abc384/tasks/abc384_c" }
+abc384-d = { alias = "d", problem = "https://atcoder.jp/contests/abc384/tasks/abc384_d" }
 
 [[bin]]
 name = "abc384-a"
 path = "src/bin/a.rs"
+
+[[bin]]
+name = "abc384-b"
+path = "src/bin/b.rs"
+
+[[bin]]
+name = "abc384-c"
+path = "src/bin/c.rs"
+
+[[bin]]
+name = "abc384-d"
+path = "src/bin/d.rs"
 
 [dependencies]
 proconio = { version = "=0.4.5", features = ["derive"] }
