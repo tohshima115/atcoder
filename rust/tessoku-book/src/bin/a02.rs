@@ -8,8 +8,10 @@ fn main() {
     }
     let mut ans = false;
     for &v in &a{
-        if v == x {ans = true};
-        break; 
+        if v == x {
+            ans = true;
+            break;
+        };
     };
     println!("{}", if ans == true {"Yes"} else {"No"});
 }
