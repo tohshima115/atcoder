@@ -4,6 +4,6 @@ fn main() {
     input! {
         y: i64,
     }
-    let ans = (y - 1) / 100;
+    let ans = (y - 1) / 100 + 1;
     println!("{}", ans);
 }

@@ -1,88 +1,14 @@
-   0.037443429s  INFO prepare_target{force=false package_id=drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill) target="drill-a10"}: cargo::core::compiler::fingerprint: fingerprint error for drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill)/Check { test: false }/TargetInner { name: "drill-a10", doc: true, ..: with_path("/home/tohshima/project/atcoder/rust/contests/drill/src/bin/a10.rs", Edition2021) }
-   0.037473559s  INFO prepare_target{force=false package_id=drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill) target="drill-a10"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/tohshima/project/atcoder/target/debug/.fingerprint/drill-b784fdfbc382833e/bin-drill-a10`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: cargo_util::paths::read_bytes
-   1: cargo_util::paths::read
-   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::main
-  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  13: std::rt::lang_start::<()>::{closure#0}
-  14: <&dyn core::ops::function::Fn<(), Output = i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe as core::ops::function::FnOnce<()>>::call_once
-             at /rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/core/src/ops/function.rs:287:21
-  15: std::panicking::catch_unwind::do_call::<&dyn core::ops::function::Fn<(), Output = i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe, i32>
-             at /rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/panicking.rs:581:40
-  16: std::panicking::catch_unwind::<i32, &dyn core::ops::function::Fn<(), Output = i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe>
-             at /rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/panicking.rs:544:19
-  17: std::panic::catch_unwind::<&dyn core::ops::function::Fn<(), Output = i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe, i32>
-             at /rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/panic.rs:359:14
-  18: std::rt::lang_start_internal::{closure#0}
-             at /rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/rt.rs:175:24
-  19: std::panicking::catch_unwind::do_call::<std::rt::lang_start_internal::{closure#0}, isize>
-             at /rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/panicking.rs:581:40
-  20: std::panicking::catch_unwind::<isize, std::rt::lang_start_internal::{closure#0}>
-             at /rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/panicking.rs:544:19
-  21: std::panic::catch_unwind::<std::rt::lang_start_internal::{closure#0}, isize>
-             at /rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/panic.rs:359:14
-  22: std::rt::lang_start_internal
-             at /rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/rt.rs:171:5
-  23: main
-  24: <unknown>
-  25: __libc_start_main
-  26: <unknown>
-   0.042993611s  INFO prepare_target{force=false package_id=drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill) target="drill-a10"}: cargo::core::compiler::fingerprint: fingerprint error for drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill)/Check { test: true }/TargetInner { name: "drill-a10", doc: true, ..: with_path("/home/tohshima/project/atcoder/rust/contests/drill/src/bin/a10.rs", Edition2021) }
-   0.043018542s  INFO prepare_target{force=false package_id=drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill) target="drill-a10"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/tohshima/project/atcoder/target/debug/.fingerprint/drill-51b7d11e096c908a/test-bin-drill-a10`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: cargo_util::paths::read_bytes
-   1: cargo_util::paths::read
-   2: cargo::core::compiler::fingerprint::_compare_old_fingerprint
-   3: cargo::core::compiler::fingerprint::prepare_target
-   4: cargo::core::compiler::compile
-   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   6: cargo::ops::cargo_compile::compile_ws
-   7: cargo::ops::cargo_compile::compile_with_exec
-   8: cargo::ops::cargo_compile::compile
-   9: cargo::commands::check::exec
-  10: <cargo::cli::Exec>::exec
-  11: cargo::main
-  12: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  13: std::rt::lang_start::<()>::{closure#0}
-  14: <&dyn core::ops::function::Fn<(), Output = i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe as core::ops::function::FnOnce<()>>::call_once
-             at /rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/core/src/ops/function.rs:287:21
-  15: std::panicking::catch_unwind::do_call::<&dyn core::ops::function::Fn<(), Output = i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe, i32>
-             at /rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/panicking.rs:581:40
-  16: std::panicking::catch_unwind::<i32, &dyn core::ops::function::Fn<(), Output = i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe>
-             at /rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/panicking.rs:544:19
-  17: std::panic::catch_unwind::<&dyn core::ops::function::Fn<(), Output = i32> + core::marker::Sync + core::panic::unwind_safe::RefUnwindSafe, i32>
-             at /rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/panic.rs:359:14
-  18: std::rt::lang_start_internal::{closure#0}
-             at /rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/rt.rs:175:24
-  19: std::panicking::catch_unwind::do_call::<std::rt::lang_start_internal::{closure#0}, isize>
-             at /rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/panicking.rs:581:40
-  20: std::panicking::catch_unwind::<isize, std::rt::lang_start_internal::{closure#0}>
-             at /rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/panicking.rs:544:19
-  21: std::panic::catch_unwind::<std::rt::lang_start_internal::{closure#0}, isize>
-             at /rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/panic.rs:359:14
-  22: std::rt::lang_start_internal
-             at /rustc/ac68faa20c58cbccd01ee7208bf3b6e93a7d7f96/library/std/src/rt.rs:171:5
-  23: main
-  24: <unknown>
-  25: __libc_start_main
-  26: <unknown>
+   0.039093421s  INFO prepare_target{force=false package_id=drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill) target="drill-a26"}: cargo::core::compiler::fingerprint: stale: changed "/home/tohshima/project/atcoder/rust/contests/drill/src/bin/a26.rs"
+   0.039123251s  INFO prepare_target{force=false package_id=drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill) target="drill-a26"}: cargo::core::compiler::fingerprint:           (vs) "/home/tohshima/project/atcoder/rust/target/debug/.fingerprint/drill-228dc073bba15e7d/dep-bin-drill-a26"
+   0.039127301s  INFO prepare_target{force=false package_id=drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill) target="drill-a26"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1780248122, nanos: 198583114 } < FileTime { seconds: 1780248360, nanos: 390471705 }
+   0.039165121s  INFO prepare_target{force=false package_id=drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill) target="drill-a26"}: cargo::core::compiler::fingerprint: fingerprint dirty for drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill)/Check { test: false }/TargetInner { name: "drill-a26", doc: true, ..: with_path("/home/tohshima/project/atcoder/rust/contests/drill/src/bin/a26.rs", Edition2021) }
+   0.039173624s  INFO prepare_target{force=false package_id=drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill) target="drill-a26"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/tohshima/project/atcoder/rust/target/debug/.fingerprint/drill-228dc073bba15e7d/dep-bin-drill-a26", reference_mtime: FileTime { seconds: 1780248122, nanos: 198583114 }, stale: "/home/tohshima/project/atcoder/rust/contests/drill/src/bin/a26.rs", stale_mtime: FileTime { seconds: 1780248360, nanos: 390471705 } }))
+   0.039528779s  INFO prepare_target{force=false package_id=drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill) target="drill-a26"}: cargo::core::compiler::fingerprint: stale: changed "/home/tohshima/project/atcoder/rust/contests/drill/src/bin/a26.rs"
+   0.039543729s  INFO prepare_target{force=false package_id=drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill) target="drill-a26"}: cargo::core::compiler::fingerprint:           (vs) "/home/tohshima/project/atcoder/rust/target/debug/.fingerprint/drill-0c3683b94756ec5e/dep-test-bin-drill-a26"
+   0.039546626s  INFO prepare_target{force=false package_id=drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill) target="drill-a26"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1780248122, nanos: 298583113 } < FileTime { seconds: 1780248360, nanos: 390471705 }
+   0.039569261s  INFO prepare_target{force=false package_id=drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill) target="drill-a26"}: cargo::core::compiler::fingerprint: fingerprint dirty for drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill)/Check { test: true }/TargetInner { name: "drill-a26", doc: true, ..: with_path("/home/tohshima/project/atcoder/rust/contests/drill/src/bin/a26.rs", Edition2021) }
+   0.039582756s  INFO prepare_target{force=false package_id=drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill) target="drill-a26"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/tohshima/project/atcoder/rust/target/debug/.fingerprint/drill-0c3683b94756ec5e/dep-test-bin-drill-a26", reference_mtime: FileTime { seconds: 1780248122, nanos: 298583113 }, stale: "/home/tohshima/project/atcoder/rust/contests/drill/src/bin/a26.rs", stale_mtime: FileTime { seconds: 1780248360, nanos: 390471705 } }))
     Checking drill v0.1.0 (/home/tohshima/project/atcoder/rust/contests/drill)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.08s
+error: could not compile `drill` (bin "drill-a26" test) due to 1 previous error; 1 warning emitted
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `drill` (bin "drill-a26") due to 1 previous error; 1 warning emitted
