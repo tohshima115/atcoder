@@ -4,8 +4,10 @@ fn main() {
     input! {
         n: i64,
     }
-    for i in 9..0{
-        [n / 2 ** i] % 2 = ans[i]
+    let mut ans:string = "";
+    for i in 0..10.rev({
+        let bit = (n / (1 << i)) % 2;
+        ans.push_str(bit);
     }
     println!("{}", n);
 }
