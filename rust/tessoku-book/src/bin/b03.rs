@@ -1,5 +1,4 @@
 use proconio::input;
-use std::collections::HashSet;
 
 fn main() {
     input! {
@@ -7,14 +6,18 @@ fn main() {
         a: [i64; n],
     }
     let mut ans = false;
-    let a_set: HashSet<i64> = a.iter().cloned().collect();
-    'outer: for &v1 in &a{
+    for &v1 in &a{
         for &v2 in &a{
-            if a_set.contains(&(& 1000 - (v1 + v2))){
-                ans = true;
-                break `outer;
+            if v1 > v2 {
+                for &v3 in &a{
+                    if v2 > v3 && v1 + v2 + v3 == 1000{
+                        ans = true;
+                        break;
+                    }
+                }
             }
-        } 
+
+        }
     }
     println!("{}", if ans {"Yes"} else {"No"});
 }
