@@ -5,18 +5,22 @@ fn main() {
         a: String,
         b: String,
     }
-    fn jan_num(x: String) {
+    fn jan_num(x: &str) -> i32 {
         match x {
-            'rock' => -1,
-            'scissors' => 0,
-            _=> 1,
+            "rock" => 0,
+            "scissors" => 1,
+            "paper" => 2,
+            _=> unreachable!(),
         }
     }
-    let a_num = jan_num(a);
-    let b_num = jan_num(b);
+    let a_num = jan_num(&a);
+    let b_num = jan_num(&b);
     let ans = if a_num == b_num {
         "Draw"
-    }else if a_num - b_num == -1 {
-        ""
-    }
+    }else if (a_num - b_num + 3) % 3 == 2 {
+        "Takahashi"
+    }else{
+        "Aoki"
+    };
+    println!("{}", ans);
 }
