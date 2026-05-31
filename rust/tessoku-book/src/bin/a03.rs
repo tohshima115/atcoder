@@ -8,13 +8,13 @@ fn main() {
         q: [i64; n],
     }
     let mut ans = false;
-    for &vp in &p{
+    'outer: for &vp in &p{
         for &vq in &q{
             if vp + vq == k {
                 ans = true;
-                break;
+                break 'outer;
             };
         };
     };
-    println!("{}", if ans == true {"Yes"} else {"No"});
+    println!("{}", if ans {"Yes"} else {"No"});
 }
