@@ -1,0 +1,73 @@
+[package]
+name = "drill"
+version = "0.1.0"
+edition = "2021"
+
+[package.metadata.cargo-compete.bin]
+drill-a1 = { alias = "a1", problem = "https://atcoder.jp/contests/drill/tasks/drill_a1" }
+drill-a2 = { alias = "a2", problem = "https://atcoder.jp/contests/drill/tasks/drill_a2" }
+drill-a3 = { alias = "a3", problem = "https://atcoder.jp/contests/drill/tasks/drill_a3" }
+drill-a4 = { alias = "a4", problem = "https://atcoder.jp/contests/drill/tasks/drill_a4" }
+drill-b1 = { alias = "b1", problem = "https://atcoder.jp/contests/drill/tasks/drill_b1" }
+drill-b2 = { alias = "b2", problem = "https://atcoder.jp/contests/drill/tasks/drill_b2" }
+drill-b3 = { alias = "b3", problem = "https://atcoder.jp/contests/drill/tasks/drill_b3" }
+drill-b4 = { alias = "b4", problem = "https://atcoder.jp/contests/drill/tasks/drill_b4" }
+drill-b5 = { alias = "b5", problem = "https://atcoder.jp/contests/drill/tasks/drill_b5" }
+
+[[bin]]
+name = "drill-a1"
+path = "src/bin/a1.rs"
+
+[[bin]]
+name = "drill-a2"
+path = "src/bin/a2.rs"
+
+[[bin]]
+name = "drill-a3"
+path = "src/bin/a3.rs"
+
+[[bin]]
+name = "drill-a4"
+path = "src/bin/a4.rs"
+
+[[bin]]
+name = "drill-b1"
+path = "src/bin/b1.rs"
+
+[[bin]]
+name = "drill-b2"
+path = "src/bin/b2.rs"
+
+[[bin]]
+name = "drill-b3"
+path = "src/bin/b3.rs"
+
+[[bin]]
+name = "drill-b4"
+path = "src/bin/b4.rs"
+
+[[bin]]
+name = "drill-b5"
+path = "src/bin/b5.rs"
+
+[dependencies]
+proconio = { version = "=0.4.5", features = ["derive"] }
+itertools = "=0.12.1"
+ac-library-rs = "=0.1.1"
+num = "=0.4.3"
+num-integer = "=0.1.46"
+num-traits = "=0.2.19"
+rand = "=0.8.5"
+rand_chacha = "=0.3.1"
+regex = "=1.10.4"
+petgraph = "=0.6.5"
+indexmap = "=2.2.6"
+ordered-float = "=4.2.0"
+rustc-hash = "=1.1.0"
+smallvec = "=1.13.2"
+fixedbitset = "=0.5.7"
+superslice = "=1.0.0"
+maplit = "=1.0.2"
+bstr = "=1.9.1"
+
+[dev-dependencies]
