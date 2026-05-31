@@ -7,9 +7,10 @@ fn main() {
     }
     let mut ans: i64 = -1;
     for i in 2..=n {
-        if h[1] > h[i]
-        ans = i;
-        break;
+        if h[1] > h[i]{
+            ans = i::i64;
+            break;
+        }
     }
     println!("{}", ans);
 }
