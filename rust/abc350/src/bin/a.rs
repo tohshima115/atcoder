@@ -5,7 +5,7 @@ fn main() {
         s: String,
     }
     let mut ans = false;
-    let num:i64 = &s.to_num
+    let num:i64 = s[3..].parse().unwrap();
     if num >= 1 && num <= 349 && num != 316 {
         ans = true
     }
