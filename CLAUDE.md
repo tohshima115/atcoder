@@ -10,7 +10,7 @@
 ## 絶対に守るルール
 
 ### 解答コードは絶対に編集しない
-- `rust/tessoku-book/src/bin/*.rs` および `rust/abcXXX/src/bin/*.rs` の解答ファイルは **Claude が直接編集してはならない**
+- `rust/contests/tessoku-book/src/bin/*.rs` および `rust/contests/abcXXX/src/bin/*.rs` の解答ファイルは **Claude が直接編集してはならない**
 - レビュー・ヒント・説明はテキストで行い、Edit/Write ツールで解答ファイルを書き換えることは禁止
 - ユーザーが「直して」と明示的に頼んだ場合も、コードを提示する形にとどめ、ファイルへの書き込みはしない
 - 設定ファイル・ツール・問題文（`.md`）の編集・取得は通常通り行ってよい
@@ -52,12 +52,16 @@
 ```
 atcoder/
 ├── rust/
-│   ├── abcXXX/          # ABC コンテスト（cargo compete で管理）
-│   │   └── src/bin/a.rs # 解答ファイル
-│   └── tessoku-book/    # 鉄則本
-│       ├── src/bin/a01.rs   # 解答ファイル
-│       ├── a01.md           # 問題文（apmd で取得）
-│       └── testcases/       # git 管理外。yml にサンプルが入っている
+│   ├── contests/        # 問題ディレクトリ（cargo compete で管理）
+│   │   ├── abcXXX/      # ABC コンテスト
+│   │   │   └── src/bin/a.rs # 解答ファイル
+│   │   ├── tessoku-book/    # 鉄則本
+│   │   │   ├── src/bin/a01.rs   # 解答ファイル
+│   │   │   ├── a01.md           # 問題文（apmd で取得）
+│   │   │   └── testcases/       # git 管理外。yml にサンプルが入っている
+│   │   └── drill/           # ドリル問題
+│   ├── notes/           # 問題ごとの学習ノート
+│   └── plan/            # 学習計画
 └── tools/
     └── fetch-problem.ts # apmd の本体
 ```
@@ -70,9 +74,9 @@ atcoder/
 | `ccd` | `cargo compete download` — テストケース再取得 |
 
 ### 問題文・解答の場所
-- **問題文**: `rust/tessoku-book/a01.md`（apmd で取得）または AtCoder のページ
-- **解答**: `rust/tessoku-book/src/bin/a01.rs`
-- **テストケース**: `rust/tessoku-book/testcases/a01.yml`（サンプル入出力が入っている）
+- **問題文**: `rust/contests/tessoku-book/a01.md`（apmd で取得）または AtCoder のページ
+- **解答**: `rust/contests/tessoku-book/src/bin/a01.rs`
+- **テストケース**: `rust/contests/tessoku-book/testcases/a01.yml`（サンプル入出力が入っている）
 - tessoku-book の問題 URL は Cargo.toml の `problem =` に記載されている
 
 ### tessoku-book の問題番号体系
