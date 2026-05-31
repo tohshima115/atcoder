@@ -1,0 +1,24 @@
+---
+type: Batch
+timelimit: 2000ms
+match: Lines
+
+cases:
+  - name: sample1
+    in: |
+      6
+      sushi pizza sushi ramen pizza sushi
+    out: |
+      3
+  - name: sample2
+    in: |
+      4
+      ramen ramen soba soba
+    out: |
+      2
+  - name: sample3
+    in: |
+      1
+      curry
+    out: |
+      1
