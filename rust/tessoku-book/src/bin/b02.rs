@@ -6,7 +6,7 @@ fn main() {
         b: i64,
     }
     let mut ans = false;
-    for v in a..b{
+    for v in a..=b{
         if 100 % v == 0{
             ans = true;
             break;
