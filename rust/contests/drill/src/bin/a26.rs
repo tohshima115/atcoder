@@ -1,4 +1,3 @@
-use num_traits::float;
 use proconio::input;
 
 fn main() {
@@ -7,6 +6,6 @@ fn main() {
         a:[i64; n],
     }
     let sum = a.iter().sum::<i64>();
-    let ave:float:: = sum / (n as i64);
-    println!("{}", ave)
+    let ave: f64 = sum as f64 / n as f64;
+    println!("{:.2}", ave)
 }
