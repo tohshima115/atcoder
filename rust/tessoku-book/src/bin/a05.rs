@@ -10,7 +10,7 @@ fn main() {
         if k - red >= 2 {
             if k - red <= n {
                 ans += k - red -1;
-            }else if k - red >= 2 * n{
+            }else if k - red <= 2 * n{
                 ans += 2 * n - (k - red) + 1
             }
         }
