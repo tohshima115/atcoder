@@ -5,6 +5,6 @@ fn main() {
         n:usize,
         a:[i64; n],
     }
-    let ans = a.iter().sum::<&i64>() - a.iter().max();
+    let ans = a.iter().sum::<i64>() - *a.iter().max().unwrap();
     println!("{}", ans);
 }
