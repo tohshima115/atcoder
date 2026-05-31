@@ -5,7 +5,7 @@ fn main() {
         n: i64,
     }
     let mut ans: String = String::new();
-    for i in 0..10.rev(){
+    for i in (0..10).rev(){
         let bit = (n / (1 << i)) % 2;
         ans.push_str(&bit.to_string());
     }
