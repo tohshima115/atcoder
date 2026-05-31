@@ -1,0 +1,21 @@
+---
+type: Batch
+timelimit: 2000ms
+match: Lines
+
+cases:
+  - name: sample1
+    in: |
+      123
+    out: |
+      6
+  - name: sample2
+    in: |
+      99999
+    out: |
+      45
+  - name: sample3
+    in: |
+      0
+    out: |
+      0

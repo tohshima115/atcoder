@@ -1,0 +1,21 @@
+---
+type: Batch
+timelimit: 2000ms
+match: Lines
+
+cases:
+  - name: sample1
+    in: |
+      hello
+    out: |
+      ell
+  - name: sample2
+    in: |
+      atcoder
+    out: |
+      tco
+  - name: sample3
+    in: |
+      abcde
+    out: |
+      bcd

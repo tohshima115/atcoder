@@ -1,0 +1,24 @@
+---
+type: Batch
+timelimit: 2000ms
+match: Lines
+
+cases:
+  - name: sample1
+    in: |
+      3
+      60 70 80
+    out: |
+      70.00
+  - name: sample2
+    in: |
+      4
+      1 2 3 4
+    out: |
+      2.50
+  - name: sample3
+    in: |
+      1
+      99
+    out: |
+      99.00

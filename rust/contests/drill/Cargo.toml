@@ -8,6 +8,36 @@ drill-a1 = { alias = "a1", problem = "https://atcoder.jp/contests/drill/tasks/dr
 drill-a2 = { alias = "a2", problem = "https://atcoder.jp/contests/drill/tasks/drill_a2" }
 drill-a3 = { alias = "a3", problem = "https://atcoder.jp/contests/drill/tasks/drill_a3" }
 drill-a4 = { alias = "a4", problem = "https://atcoder.jp/contests/drill/tasks/drill_a4" }
+drill-a5 = { alias = "a5", problem = "https://atcoder.jp/contests/drill/tasks/drill_a5" }
+drill-a6 = { alias = "a6", problem = "https://atcoder.jp/contests/drill/tasks/drill_a6" }
+drill-a7 = { alias = "a7", problem = "https://atcoder.jp/contests/drill/tasks/drill_a7" }
+drill-a8 = { alias = "a8", problem = "https://atcoder.jp/contests/drill/tasks/drill_a8" }
+drill-a9 = { alias = "a9", problem = "https://atcoder.jp/contests/drill/tasks/drill_a9" }
+drill-a10 = { alias = "a10", problem = "https://atcoder.jp/contests/drill/tasks/drill_a10" }
+drill-a11 = { alias = "a11", problem = "https://atcoder.jp/contests/drill/tasks/drill_a11" }
+drill-a12 = { alias = "a12", problem = "https://atcoder.jp/contests/drill/tasks/drill_a12" }
+drill-a13 = { alias = "a13", problem = "https://atcoder.jp/contests/drill/tasks/drill_a13" }
+drill-a14 = { alias = "a14", problem = "https://atcoder.jp/contests/drill/tasks/drill_a14" }
+drill-a15 = { alias = "a15", problem = "https://atcoder.jp/contests/drill/tasks/drill_a15" }
+drill-a16 = { alias = "a16", problem = "https://atcoder.jp/contests/drill/tasks/drill_a16" }
+drill-a17 = { alias = "a17", problem = "https://atcoder.jp/contests/drill/tasks/drill_a17" }
+drill-a18 = { alias = "a18", problem = "https://atcoder.jp/contests/drill/tasks/drill_a18" }
+drill-a19 = { alias = "a19", problem = "https://atcoder.jp/contests/drill/tasks/drill_a19" }
+drill-a20 = { alias = "a20", problem = "https://atcoder.jp/contests/drill/tasks/drill_a20" }
+drill-a21 = { alias = "a21", problem = "https://atcoder.jp/contests/drill/tasks/drill_a21" }
+drill-a22 = { alias = "a22", problem = "https://atcoder.jp/contests/drill/tasks/drill_a22" }
+drill-a23 = { alias = "a23", problem = "https://atcoder.jp/contests/drill/tasks/drill_a23" }
+drill-a24 = { alias = "a24", problem = "https://atcoder.jp/contests/drill/tasks/drill_a24" }
+drill-a25 = { alias = "a25", problem = "https://atcoder.jp/contests/drill/tasks/drill_a25" }
+drill-a26 = { alias = "a26", problem = "https://atcoder.jp/contests/drill/tasks/drill_a26" }
+drill-a27 = { alias = "a27", problem = "https://atcoder.jp/contests/drill/tasks/drill_a27" }
+drill-a28 = { alias = "a28", problem = "https://atcoder.jp/contests/drill/tasks/drill_a28" }
+drill-a29 = { alias = "a29", problem = "https://atcoder.jp/contests/drill/tasks/drill_a29" }
+drill-a30 = { alias = "a30", problem = "https://atcoder.jp/contests/drill/tasks/drill_a30" }
+drill-a31 = { alias = "a31", problem = "https://atcoder.jp/contests/drill/tasks/drill_a31" }
+drill-a32 = { alias = "a32", problem = "https://atcoder.jp/contests/drill/tasks/drill_a32" }
+drill-a33 = { alias = "a33", problem = "https://atcoder.jp/contests/drill/tasks/drill_a33" }
+drill-a34 = { alias = "a34", problem = "https://atcoder.jp/contests/drill/tasks/drill_a34" }
 drill-b1 = { alias = "b1", problem = "https://atcoder.jp/contests/drill/tasks/drill_b1" }
 drill-b2 = { alias = "b2", problem = "https://atcoder.jp/contests/drill/tasks/drill_b2" }
 drill-b3 = { alias = "b3", problem = "https://atcoder.jp/contests/drill/tasks/drill_b3" }
@@ -29,6 +59,126 @@ path = "src/bin/a3.rs"
 [[bin]]
 name = "drill-a4"
 path = "src/bin/a4.rs"
+
+[[bin]]
+name = "drill-a5"
+path = "src/bin/a5.rs"
+
+[[bin]]
+name = "drill-a6"
+path = "src/bin/a6.rs"
+
+[[bin]]
+name = "drill-a7"
+path = "src/bin/a7.rs"
+
+[[bin]]
+name = "drill-a8"
+path = "src/bin/a8.rs"
+
+[[bin]]
+name = "drill-a9"
+path = "src/bin/a9.rs"
+
+[[bin]]
+name = "drill-a10"
+path = "src/bin/a10.rs"
+
+[[bin]]
+name = "drill-a11"
+path = "src/bin/a11.rs"
+
+[[bin]]
+name = "drill-a12"
+path = "src/bin/a12.rs"
+
+[[bin]]
+name = "drill-a13"
+path = "src/bin/a13.rs"
+
+[[bin]]
+name = "drill-a14"
+path = "src/bin/a14.rs"
+
+[[bin]]
+name = "drill-a15"
+path = "src/bin/a15.rs"
+
+[[bin]]
+name = "drill-a16"
+path = "src/bin/a16.rs"
+
+[[bin]]
+name = "drill-a17"
+path = "src/bin/a17.rs"
+
+[[bin]]
+name = "drill-a18"
+path = "src/bin/a18.rs"
+
+[[bin]]
+name = "drill-a19"
+path = "src/bin/a19.rs"
+
+[[bin]]
+name = "drill-a20"
+path = "src/bin/a20.rs"
+
+[[bin]]
+name = "drill-a21"
+path = "src/bin/a21.rs"
+
+[[bin]]
+name = "drill-a22"
+path = "src/bin/a22.rs"
+
+[[bin]]
+name = "drill-a23"
+path = "src/bin/a23.rs"
+
+[[bin]]
+name = "drill-a24"
+path = "src/bin/a24.rs"
+
+[[bin]]
+name = "drill-a25"
+path = "src/bin/a25.rs"
+
+[[bin]]
+name = "drill-a26"
+path = "src/bin/a26.rs"
+
+[[bin]]
+name = "drill-a27"
+path = "src/bin/a27.rs"
+
+[[bin]]
+name = "drill-a28"
+path = "src/bin/a28.rs"
+
+[[bin]]
+name = "drill-a29"
+path = "src/bin/a29.rs"
+
+[[bin]]
+name = "drill-a30"
+path = "src/bin/a30.rs"
+
+[[bin]]
+name = "drill-a31"
+path = "src/bin/a31.rs"
+
+[[bin]]
+name = "drill-a32"
+path = "src/bin/a32.rs"
+
+[[bin]]
+name = "drill-a33"
+path = "src/bin/a33.rs"
+
+[[bin]]
+name = "drill-a34"
+path = "src/bin/a34.rs"
 
 [[bin]]
 name = "drill-b1"

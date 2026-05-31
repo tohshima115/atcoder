@@ -1,0 +1,26 @@
+---
+type: Batch
+timelimit: 2000ms
+match: Lines
+
+cases:
+  - name: sample1
+    in: |
+      a
+    out: |
+      vowel
+  - name: sample2
+    in: |
+      b
+    out: |
+      consonant
+  - name: sample3
+    in: |
+      7
+    out: |
+      digit
+  - name: sample4
+    in: |
+      u
+    out: |
+      vowel

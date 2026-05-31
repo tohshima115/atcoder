@@ -1,0 +1,26 @@
+---
+type: Batch
+timelimit: 2000ms
+match: Lines
+
+cases:
+  - name: sample1
+    in: |
+      4
+    out: |
+      spring
+  - name: sample2
+    in: |
+      8
+    out: |
+      summer
+  - name: sample3
+    in: |
+      12
+    out: |
+      winter
+  - name: sample4
+    in: |
+      1
+    out: |
+      winter
