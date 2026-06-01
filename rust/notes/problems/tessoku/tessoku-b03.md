@@ -12,7 +12,7 @@ difficulty: tessoku-B
 
 # B03 - Supermarket 1
 
-[[../../tessoku-book/b03|問題文]]
+[[../../../contests/tessoku-book/b03|問題文]]
 
 N個の商品から**異なる3つ**を選んで合計がちょうど1000円になるか判定する。
 

@@ -14,7 +14,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a53|問題文]]
+[[../../../contests/drill/a53|問題文]]
 
 数字のみからなる文字列 S の各桁の和を出力する。
 

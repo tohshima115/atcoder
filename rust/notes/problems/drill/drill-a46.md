@@ -13,7 +13,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a46|問題文]]
+[[../../../contests/drill/a46|問題文]]
 
 英小文字のみの文字列 S の L 文字目から R 文字目までを取り出して出力する。
 

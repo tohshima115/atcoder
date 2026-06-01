@@ -13,7 +13,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a23|問題文]]
+[[../../../contests/drill/a23|問題文]]
 
 非負整数 N の各桁の和を出力する。
 

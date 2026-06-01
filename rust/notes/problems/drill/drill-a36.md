@@ -12,7 +12,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a36|問題文]]
+[[../../../contests/drill/a36|問題文]]
 
 数列 `(1, 2, ..., N)` の L 項目から R 項目までを逆順に並べ替えて空白区切りで出力する。ABC356-A と同じ問題。
 

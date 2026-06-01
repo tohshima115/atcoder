@@ -11,7 +11,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a38|問題文]]
+[[../../../contests/drill/a38|問題文]]
 
 長さ N の数列 A の K 番目になる位置に値 X を挿入した数列（長さ N+1）を空白区切りで出力する。
 

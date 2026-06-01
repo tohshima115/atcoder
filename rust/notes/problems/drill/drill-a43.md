@@ -13,7 +13,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a43|問題文]]
+[[../../../contests/drill/a43|問題文]]
 
 長さ N の数列 A（初期値0）に対し、Q 個のクエリ `(X_i, V_i)` で「A[X_i] に V_i を加える」操作を全て行った後の数列を出力する。
 

@@ -13,7 +13,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a41|問題文]]
+[[../../../contests/drill/a41|問題文]]
 
 英小文字のみの文字列 S が回文なら `Yes`、そうでなければ `No` を出力する。
 

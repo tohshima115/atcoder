@@ -10,7 +10,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a51|問題文]]
+[[../../../contests/drill/a51|問題文]]
 
 長さ N の数列 A を左に K 個ローテートして空白区切りで出力する。
 

@@ -12,7 +12,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a35|問題文]]
+[[../../../contests/drill/a35|問題文]]
 
 正整数 N が与えられる。数列 `(1, 2, ..., N)` を空白区切りで1行に出力する。
 

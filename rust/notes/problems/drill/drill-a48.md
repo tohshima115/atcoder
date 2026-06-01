@@ -13,7 +13,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a48|問題文]]
+[[../../../contests/drill/a48|問題文]]
 
 N 個の整数のうち、ちょうど1回だけ出現する値が何個あるかを出力する。
 
@@ -152,6 +152,6 @@ let ans = count.values().filter(|&&v| v == 1).count();
 ## 関連ノート
 
 - [[drill-a47]] — `HashSet` で種類数
-- [[ref-hashmap-hashset]] — HashMap / HashSet のまとめ
+- [[hashmap-hashset]] — HashMap / HashSet のまとめ
 - [[drill-a30]] — `filter` の `|&&x|` パターン
 - [[drill-a38]] — `insert` / `push` の Vec メソッド

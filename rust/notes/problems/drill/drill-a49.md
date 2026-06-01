@@ -12,7 +12,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a49|問題文]]
+[[../../../contests/drill/a49|問題文]]
 
 長さ N の数列 A の合計と最大値を2行で出力する。
 

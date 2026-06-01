@@ -14,7 +14,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a54|問題文]]
+[[../../../contests/drill/a54|問題文]]
 
 英小文字のみの文字列 S に含まれる文字 C の個数を出力する。
 
@@ -137,4 +137,4 @@ println!("{:?}", count);   // ← Debug は実装してるので OK
 - [[drill-a48]] — `HashMap` + `entry().or_insert(0) += 1` の出現回数
 - [[drill-a42]] — `chars()` + `map` で1文字ずつ処理
 - [[drill-a30]] — `filter` で `|&&x|`（こちらは `iter()`、`chars()` の `|&ch|` と対比）
-- [[ref-hashmap-hashset]] — HashMap/HashSet のまとめ
+- [[hashmap-hashset]] — HashMap/HashSet のまとめ

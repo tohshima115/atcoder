@@ -13,7 +13,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a42|問題文]]
+[[../../../contests/drill/a42|問題文]]
 
 英大文字・英小文字からなる文字列 S の大文字と小文字を入れ替えて出力する。
 

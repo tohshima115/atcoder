@@ -12,7 +12,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a22|問題文]]
+[[../../../contests/drill/a22|問題文]]
 
 非負整数 N の10進数での桁数を出力する。N=0 のとき 1。
 

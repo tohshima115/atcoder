@@ -11,7 +11,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a30|問題文]]
+[[../../../contests/drill/a30|問題文]]
 
 N個の整数からK以上の要素の個数を出力する。
 

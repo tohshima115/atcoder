@@ -13,7 +13,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a44|問題文]]
+[[../../../contests/drill/a44|問題文]]
 
 2つの整数 A, B を比較して `Greater` / `Less` / `Equal` を出力する。
 

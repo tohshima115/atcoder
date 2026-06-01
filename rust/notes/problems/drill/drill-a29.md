@@ -11,7 +11,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a29|問題文]]
+[[../../../contests/drill/a29|問題文]]
 
 N個の整数から大きい順に上位K個の合計を出力する。
 

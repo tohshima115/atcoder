@@ -5,7 +5,7 @@ tags:
   - HashSet
   - 標準ライブラリ
   - リファレンス
-problem: ref-hashmap-hashset
+problem: hashmap-hashset
 date: 2026-06-01
 difficulty: reference
 ---

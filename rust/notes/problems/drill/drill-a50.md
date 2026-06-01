@@ -12,7 +12,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a50|問題文]]
+[[../../../contests/drill/a50|問題文]]
 
 長さ N の数列 A の隣り合う2要素の差 A[i+1] - A[i] の最大値を出力する。
 

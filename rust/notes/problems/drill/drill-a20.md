@@ -11,7 +11,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a20|問題文]]
+[[../../../contests/drill/a20|問題文]]
 
 隣り合う要素の差 `|A[i+1] - A[i]|` の最大値を求める。N=1 のとき 0。
 

@@ -11,7 +11,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a26|問題文]]
+[[../../../contests/drill/a26|問題文]]
 
 N個の整数の平均を小数第2位まで出力する。
 

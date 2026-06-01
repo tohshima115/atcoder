@@ -12,7 +12,7 @@ difficulty: beginner
 
 # Drill A-3 — 最低気温
 
-[[../monday-drill|月曜ドリル]]の A-3。N 日間の気温の最小値を出力する。
+[[monday-drill|月曜ドリル]]の A-3。N 日間の気温の最小値を出力する。
 
 ## 自分の実装
 

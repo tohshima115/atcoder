@@ -11,7 +11,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a28|問題文]]
+[[../../../contests/drill/a28|問題文]]
 
 奇数個の整数を昇順ソートして中央値を出力する。
 

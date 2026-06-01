@@ -11,7 +11,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a24|問題文]]
+[[../../../contests/drill/a24|問題文]]
 
 正整数 N の各桁のうち最大の値を出力する。
 

@@ -11,7 +11,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a37|問題文]]
+[[../../../contests/drill/a37|問題文]]
 
 長さ N の数列 A の P 番目と Q 番目の要素を交換して空白区切りで出力する。
 

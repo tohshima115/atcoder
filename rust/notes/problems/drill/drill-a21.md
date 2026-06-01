@@ -11,7 +11,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a21|問題文]]
+[[../../../contests/drill/a21|問題文]]
 
 N個の整数から最大値を1つだけ除いた残りの合計を出力する。N=1のとき0。
 

@@ -14,7 +14,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a52|問題文]]
+[[../../../contests/drill/a52|問題文]]
 
 長さ N の数列 A の中で値 X が最初に出現する位置（1-indexed）を出力する。無ければ `-1`。
 

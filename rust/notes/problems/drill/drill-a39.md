@@ -12,7 +12,7 @@ difficulty: drill
 
 ## 問題
 
-[[../../contests/drill/a39|問題文]]
+[[../../../contests/drill/a39|問題文]]
 
 英小文字のみの文字列 S の K 文字目を文字 C に置き換えて出力する。
 
