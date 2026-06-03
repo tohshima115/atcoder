@@ -4,291 +4,19 @@ version = "0.1.0"
 edition = "2021"
 
 [package.metadata.cargo-compete.bin]
-drill-a1 = { alias = "a1", problem = "https://atcoder.jp/contests/drill/tasks/drill_a1" }
-drill-a2 = { alias = "a2", problem = "https://atcoder.jp/contests/drill/tasks/drill_a2" }
-drill-a3 = { alias = "a3", problem = "https://atcoder.jp/contests/drill/tasks/drill_a3" }
-drill-a4 = { alias = "a4", problem = "https://atcoder.jp/contests/drill/tasks/drill_a4" }
-drill-a5 = { alias = "a5", problem = "https://atcoder.jp/contests/drill/tasks/drill_a5" }
-drill-a6 = { alias = "a6", problem = "https://atcoder.jp/contests/drill/tasks/drill_a6" }
-drill-a7 = { alias = "a7", problem = "https://atcoder.jp/contests/drill/tasks/drill_a7" }
-drill-a8 = { alias = "a8", problem = "https://atcoder.jp/contests/drill/tasks/drill_a8" }
-drill-a9 = { alias = "a9", problem = "https://atcoder.jp/contests/drill/tasks/drill_a9" }
-drill-a10 = { alias = "a10", problem = "https://atcoder.jp/contests/drill/tasks/drill_a10" }
-drill-a11 = { alias = "a11", problem = "https://atcoder.jp/contests/drill/tasks/drill_a11" }
-drill-a12 = { alias = "a12", problem = "https://atcoder.jp/contests/drill/tasks/drill_a12" }
-drill-a13 = { alias = "a13", problem = "https://atcoder.jp/contests/drill/tasks/drill_a13" }
-drill-a14 = { alias = "a14", problem = "https://atcoder.jp/contests/drill/tasks/drill_a14" }
-drill-a15 = { alias = "a15", problem = "https://atcoder.jp/contests/drill/tasks/drill_a15" }
-drill-a16 = { alias = "a16", problem = "https://atcoder.jp/contests/drill/tasks/drill_a16" }
-drill-a17 = { alias = "a17", problem = "https://atcoder.jp/contests/drill/tasks/drill_a17" }
-drill-a18 = { alias = "a18", problem = "https://atcoder.jp/contests/drill/tasks/drill_a18" }
-drill-a19 = { alias = "a19", problem = "https://atcoder.jp/contests/drill/tasks/drill_a19" }
-drill-a20 = { alias = "a20", problem = "https://atcoder.jp/contests/drill/tasks/drill_a20" }
-drill-a21 = { alias = "a21", problem = "https://atcoder.jp/contests/drill/tasks/drill_a21" }
-drill-a22 = { alias = "a22", problem = "https://atcoder.jp/contests/drill/tasks/drill_a22" }
-drill-a23 = { alias = "a23", problem = "https://atcoder.jp/contests/drill/tasks/drill_a23" }
-drill-a24 = { alias = "a24", problem = "https://atcoder.jp/contests/drill/tasks/drill_a24" }
-drill-a25 = { alias = "a25", problem = "https://atcoder.jp/contests/drill/tasks/drill_a25" }
-drill-a26 = { alias = "a26", problem = "https://atcoder.jp/contests/drill/tasks/drill_a26" }
-drill-a27 = { alias = "a27", problem = "https://atcoder.jp/contests/drill/tasks/drill_a27" }
-drill-a28 = { alias = "a28", problem = "https://atcoder.jp/contests/drill/tasks/drill_a28" }
-drill-a29 = { alias = "a29", problem = "https://atcoder.jp/contests/drill/tasks/drill_a29" }
-drill-a30 = { alias = "a30", problem = "https://atcoder.jp/contests/drill/tasks/drill_a30" }
-drill-a31 = { alias = "a31", problem = "https://atcoder.jp/contests/drill/tasks/drill_a31" }
-drill-a32 = { alias = "a32", problem = "https://atcoder.jp/contests/drill/tasks/drill_a32" }
-drill-a33 = { alias = "a33", problem = "https://atcoder.jp/contests/drill/tasks/drill_a33" }
-drill-a34 = { alias = "a34", problem = "https://atcoder.jp/contests/drill/tasks/drill_a34" }
-drill-a35 = { alias = "a35", problem = "https://atcoder.jp/contests/drill/tasks/drill_a35" }
-drill-a36 = { alias = "a36", problem = "https://atcoder.jp/contests/drill/tasks/drill_a36" }
-drill-a37 = { alias = "a37", problem = "https://atcoder.jp/contests/drill/tasks/drill_a37" }
-drill-a38 = { alias = "a38", problem = "https://atcoder.jp/contests/drill/tasks/drill_a38" }
-drill-a39 = { alias = "a39", problem = "https://atcoder.jp/contests/drill/tasks/drill_a39" }
-drill-a40 = { alias = "a40", problem = "https://atcoder.jp/contests/drill/tasks/drill_a40" }
-drill-a41 = { alias = "a41", problem = "https://atcoder.jp/contests/drill/tasks/drill_a41" }
-drill-a42 = { alias = "a42", problem = "https://atcoder.jp/contests/drill/tasks/drill_a42" }
-drill-a43 = { alias = "a43", problem = "https://atcoder.jp/contests/drill/tasks/drill_a43" }
-drill-a44 = { alias = "a44", problem = "https://atcoder.jp/contests/drill/tasks/drill_a44" }
-drill-a45 = { alias = "a45", problem = "https://atcoder.jp/contests/drill/tasks/drill_a45" }
-drill-a46 = { alias = "a46", problem = "https://atcoder.jp/contests/drill/tasks/drill_a46" }
-drill-a47 = { alias = "a47", problem = "https://atcoder.jp/contests/drill/tasks/drill_a47" }
-drill-a48 = { alias = "a48", problem = "https://atcoder.jp/contests/drill/tasks/drill_a48" }
-drill-a49 = { alias = "a49", problem = "https://atcoder.jp/contests/drill/tasks/drill_a49" }
-drill-a50 = { alias = "a50", problem = "https://atcoder.jp/contests/drill/tasks/drill_a50" }
-drill-a51 = { alias = "a51", problem = "https://atcoder.jp/contests/drill/tasks/drill_a51" }
-drill-a52 = { alias = "a52", problem = "https://atcoder.jp/contests/drill/tasks/drill_a52" }
-drill-a53 = { alias = "a53", problem = "https://atcoder.jp/contests/drill/tasks/drill_a53" }
-drill-a54 = { alias = "a54", problem = "https://atcoder.jp/contests/drill/tasks/drill_a54" }
-drill-a55 = { alias = "a55", problem = "https://atcoder.jp/contests/drill/tasks/drill_a55" }
-drill-a56 = { alias = "a56", problem = "https://atcoder.jp/contests/drill/tasks/drill_a56" }
 drill-b1 = { alias = "b1", problem = "https://atcoder.jp/contests/drill/tasks/drill_b1" }
 drill-b2 = { alias = "b2", problem = "https://atcoder.jp/contests/drill/tasks/drill_b2" }
 drill-b3 = { alias = "b3", problem = "https://atcoder.jp/contests/drill/tasks/drill_b3" }
 drill-b4 = { alias = "b4", problem = "https://atcoder.jp/contests/drill/tasks/drill_b4" }
 drill-b5 = { alias = "b5", problem = "https://atcoder.jp/contests/drill/tasks/drill_b5" }
-
-[[bin]]
-name = "drill-a1"
-path = "src/bin/a1.rs"
-
-[[bin]]
-name = "drill-a2"
-path = "src/bin/a2.rs"
-
-[[bin]]
-name = "drill-a3"
-path = "src/bin/a3.rs"
-
-[[bin]]
-name = "drill-a4"
-path = "src/bin/a4.rs"
-
-[[bin]]
-name = "drill-a5"
-path = "src/bin/a5.rs"
-
-[[bin]]
-name = "drill-a6"
-path = "src/bin/a6.rs"
-
-[[bin]]
-name = "drill-a7"
-path = "src/bin/a7.rs"
-
-[[bin]]
-name = "drill-a8"
-path = "src/bin/a8.rs"
-
-[[bin]]
-name = "drill-a9"
-path = "src/bin/a9.rs"
-
-[[bin]]
-name = "drill-a10"
-path = "src/bin/a10.rs"
-
-[[bin]]
-name = "drill-a11"
-path = "src/bin/a11.rs"
-
-[[bin]]
-name = "drill-a12"
-path = "src/bin/a12.rs"
-
-[[bin]]
-name = "drill-a13"
-path = "src/bin/a13.rs"
-
-[[bin]]
-name = "drill-a14"
-path = "src/bin/a14.rs"
-
-[[bin]]
-name = "drill-a15"
-path = "src/bin/a15.rs"
-
-[[bin]]
-name = "drill-a16"
-path = "src/bin/a16.rs"
-
-[[bin]]
-name = "drill-a17"
-path = "src/bin/a17.rs"
-
-[[bin]]
-name = "drill-a18"
-path = "src/bin/a18.rs"
-
-[[bin]]
-name = "drill-a19"
-path = "src/bin/a19.rs"
-
-[[bin]]
-name = "drill-a20"
-path = "src/bin/a20.rs"
-
-[[bin]]
-name = "drill-a21"
-path = "src/bin/a21.rs"
-
-[[bin]]
-name = "drill-a22"
-path = "src/bin/a22.rs"
-
-[[bin]]
-name = "drill-a23"
-path = "src/bin/a23.rs"
-
-[[bin]]
-name = "drill-a24"
-path = "src/bin/a24.rs"
-
-[[bin]]
-name = "drill-a25"
-path = "src/bin/a25.rs"
-
-[[bin]]
-name = "drill-a26"
-path = "src/bin/a26.rs"
-
-[[bin]]
-name = "drill-a27"
-path = "src/bin/a27.rs"
-
-[[bin]]
-name = "drill-a28"
-path = "src/bin/a28.rs"
-
-[[bin]]
-name = "drill-a29"
-path = "src/bin/a29.rs"
-
-[[bin]]
-name = "drill-a30"
-path = "src/bin/a30.rs"
-
-[[bin]]
-name = "drill-a31"
-path = "src/bin/a31.rs"
-
-[[bin]]
-name = "drill-a32"
-path = "src/bin/a32.rs"
-
-[[bin]]
-name = "drill-a33"
-path = "src/bin/a33.rs"
-
-[[bin]]
-name = "drill-a34"
-path = "src/bin/a34.rs"
-
-[[bin]]
-name = "drill-a35"
-path = "src/bin/a35.rs"
-
-[[bin]]
-name = "drill-a36"
-path = "src/bin/a36.rs"
-
-[[bin]]
-name = "drill-a37"
-path = "src/bin/a37.rs"
-
-[[bin]]
-name = "drill-a38"
-path = "src/bin/a38.rs"
-
-[[bin]]
-name = "drill-a39"
-path = "src/bin/a39.rs"
-
-[[bin]]
-name = "drill-a40"
-path = "src/bin/a40.rs"
-
-[[bin]]
-name = "drill-a41"
-path = "src/bin/a41.rs"
-
-[[bin]]
-name = "drill-a42"
-path = "src/bin/a42.rs"
-
-[[bin]]
-name = "drill-a43"
-path = "src/bin/a43.rs"
-
-[[bin]]
-name = "drill-a44"
-path = "src/bin/a44.rs"
-
-[[bin]]
-name = "drill-a45"
-path = "src/bin/a45.rs"
-
-[[bin]]
-name = "drill-a46"
-path = "src/bin/a46.rs"
-
-[[bin]]
-name = "drill-a47"
-path = "src/bin/a47.rs"
-
-[[bin]]
-name = "drill-a48"
-path = "src/bin/a48.rs"
-
-[[bin]]
-name = "drill-a49"
-path = "src/bin/a49.rs"
-
-[[bin]]
-name = "drill-a50"
-path = "src/bin/a50.rs"
-
-[[bin]]
-name = "drill-a51"
-path = "src/bin/a51.rs"
-
-[[bin]]
-name = "drill-a52"
-path = "src/bin/a52.rs"
-
-[[bin]]
-name = "drill-a53"
-path = "src/bin/a53.rs"
-
-[[bin]]
-name = "drill-a54"
-path = "src/bin/a54.rs"
-
-[[bin]]
-name = "drill-a55"
-path = "src/bin/a55.rs"
-
-[[bin]]
-name = "drill-a56"
-path = "src/bin/a56.rs"
+drill-b6 = { alias = "b6", problem = "https://atcoder.jp/contests/drill/tasks/drill_b6" }
+drill-b7 = { alias = "b7", problem = "https://atcoder.jp/contests/drill/tasks/drill_b7" }
+drill-b8 = { alias = "b8", problem = "https://atcoder.jp/contests/drill/tasks/drill_b8" }
+drill-b9 = { alias = "b9", problem = "https://atcoder.jp/contests/drill/tasks/drill_b9" }
+drill-b10 = { alias = "b10", problem = "https://atcoder.jp/contests/drill/tasks/drill_b10" }
+drill-b11 = { alias = "b11", problem = "https://atcoder.jp/contests/drill/tasks/drill_b11" }
+drill-b12 = { alias = "b12", problem = "https://atcoder.jp/contests/drill/tasks/drill_b12" }
+drill-b13 = { alias = "b13", problem = "https://atcoder.jp/contests/drill/tasks/drill_b13" }
 
 [[bin]]
 name = "drill-b1"
@@ -309,6 +37,38 @@ path = "src/bin/b4.rs"
 [[bin]]
 name = "drill-b5"
 path = "src/bin/b5.rs"
+
+[[bin]]
+name = "drill-b6"
+path = "src/bin/b6.rs"
+
+[[bin]]
+name = "drill-b7"
+path = "src/bin/b7.rs"
+
+[[bin]]
+name = "drill-b8"
+path = "src/bin/b8.rs"
+
+[[bin]]
+name = "drill-b9"
+path = "src/bin/b9.rs"
+
+[[bin]]
+name = "drill-b10"
+path = "src/bin/b10.rs"
+
+[[bin]]
+name = "drill-b11"
+path = "src/bin/b11.rs"
+
+[[bin]]
+name = "drill-b12"
+path = "src/bin/b12.rs"
+
+[[bin]]
+name = "drill-b13"
+path = "src/bin/b13.rs"
 
 [dependencies]
 proconio = { version = "=0.4.5", features = ["derive"] }
