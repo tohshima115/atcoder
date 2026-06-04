@@ -26,7 +26,7 @@ status: stage2-進行中
 
 | # | 問題 | 狙い | 評価 | メモ |
 |---|---|---|---|---|
-| b14 | 最頻値をすべて | HashMap 集計→キーを集めて sort | | |
+| b14 | 最頻値をすべて | HashMap 集計→キーを集めて sort | 🟢 自力AC | 集計→max→絞り込み→join。`keys()`では値が見えず`&map`を`(&k,&v)`で回す点、HashMapは各フィールドに参照（Vecと逆）が学び。BTreeMapならsort不要。→[[../problems/drill/drill-b14]] |
 | b15 | 和が K のペア(高速) | HashSet で two-sum O(N)（b6 の O(N²)→O(N)） | | |
 | b16 | 次のイベント | **BTreeMap** 範囲クエリ `range(x..).next()` | | |
 | b17 | 値ごとの個数(昇順) | **BTreeMap** で自動昇順集計 | | |
