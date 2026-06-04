@@ -27,7 +27,7 @@ status: stage2-進行中
 | # | 問題 | 狙い | 評価 | メモ |
 |---|---|---|---|---|
 | b14 | 最頻値をすべて | HashMap 集計→キーを集めて sort | 🟢 自力AC | 集計→max→絞り込み→join。`keys()`では値が見えず`&map`を`(&k,&v)`で回す点、HashMapは各フィールドに参照（Vecと逆）が学び。BTreeMapならsort不要。→[[../problems/drill/drill-b14]] |
-| b15 | 和が K のペア(高速) | HashSet で two-sum O(N)（b6 の O(N²)→O(N)） | | |
+| b15 | 和が K のペア(高速) | HashSet で two-sum O(N)（b6 の O(N²)→O(N)） | 🟢 仕組み理解 | 「全部入れてから探す」だと x==K-x で自己ペア誤答。「調べる→入れる」順序で i<j が自動で守られる。"seen so far"パターンは超汎用。→[[../problems/drill/drill-b15]] |
 | b16 | 次のイベント | **BTreeMap** 範囲クエリ `range(x..).next()` | | |
 | b17 | 値ごとの個数(昇順) | **BTreeMap** で自動昇順集計 | | |
 | b18 | 最高得点者 | 参照/deref 総合（`Vec<(String,i64)>`） | | |
