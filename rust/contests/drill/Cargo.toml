@@ -22,6 +22,10 @@ drill-b15 = { alias = "b15", problem = "https://atcoder.jp/contests/drill/tasks/
 drill-b16 = { alias = "b16", problem = "https://atcoder.jp/contests/drill/tasks/drill_b16" }
 drill-b17 = { alias = "b17", problem = "https://atcoder.jp/contests/drill/tasks/drill_b17" }
 drill-b18 = { alias = "b18", problem = "https://atcoder.jp/contests/drill/tasks/drill_b18" }
+drill-b19 = { alias = "b19", problem = "https://atcoder.jp/contests/drill/tasks/drill_b19" }
+drill-b20 = { alias = "b20", problem = "https://atcoder.jp/contests/drill/tasks/drill_b20" }
+drill-b21 = { alias = "b21", problem = "https://atcoder.jp/contests/drill/tasks/drill_b21" }
+drill-b22 = { alias = "b22", problem = "https://atcoder.jp/contests/drill/tasks/drill_b22" }
 
 [[bin]]
 name = "drill-b1"
@@ -94,6 +98,22 @@ path = "src/bin/b17.rs"
 [[bin]]
 name = "drill-b18"
 path = "src/bin/b18.rs"
+
+[[bin]]
+name = "drill-b19"
+path = "src/bin/b19.rs"
+
+[[bin]]
+name = "drill-b20"
+path = "src/bin/b20.rs"
+
+[[bin]]
+name = "drill-b21"
+path = "src/bin/b21.rs"
+
+[[bin]]
+name = "drill-b22"
+path = "src/bin/b22.rs"
 
 [dependencies]
 proconio = { version = "=0.4.5", features = ["derive"] }
