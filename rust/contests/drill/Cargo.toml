@@ -26,6 +26,20 @@ drill-b19 = { alias = "b19", problem = "https://atcoder.jp/contests/drill/tasks/
 drill-b20 = { alias = "b20", problem = "https://atcoder.jp/contests/drill/tasks/drill_b20" }
 drill-b21 = { alias = "b21", problem = "https://atcoder.jp/contests/drill/tasks/drill_b21" }
 drill-b22 = { alias = "b22", problem = "https://atcoder.jp/contests/drill/tasks/drill_b22" }
+drill-g1 = { alias = "g1", problem = "https://atcoder.jp/contests/drill/tasks/drill_g1" }
+drill-g2 = { alias = "g2", problem = "https://atcoder.jp/contests/drill/tasks/drill_g2" }
+drill-g3 = { alias = "g3", problem = "https://atcoder.jp/contests/drill/tasks/drill_g3" }
+drill-g4 = { alias = "g4", problem = "https://atcoder.jp/contests/drill/tasks/drill_g4" }
+drill-s1 = { alias = "s1", problem = "https://atcoder.jp/contests/drill/tasks/drill_s1" }
+drill-s2 = { alias = "s2", problem = "https://atcoder.jp/contests/drill/tasks/drill_s2" }
+drill-s3 = { alias = "s3", problem = "https://atcoder.jp/contests/drill/tasks/drill_s3" }
+drill-t1 = { alias = "t1", problem = "https://atcoder.jp/contests/drill/tasks/drill_t1" }
+drill-t2 = { alias = "t2", problem = "https://atcoder.jp/contests/drill/tasks/drill_t2" }
+drill-t3 = { alias = "t3", problem = "https://atcoder.jp/contests/drill/tasks/drill_t3" }
+drill-t4 = { alias = "t4", problem = "https://atcoder.jp/contests/drill/tasks/drill_t4" }
+drill-p1 = { alias = "p1", problem = "https://atcoder.jp/contests/drill/tasks/drill_p1" }
+drill-p2 = { alias = "p2", problem = "https://atcoder.jp/contests/drill/tasks/drill_p2" }
+drill-p3 = { alias = "p3", problem = "https://atcoder.jp/contests/drill/tasks/drill_p3" }
 
 [[bin]]
 name = "drill-b1"
@@ -114,6 +128,62 @@ path = "src/bin/b21.rs"
 [[bin]]
 name = "drill-b22"
 path = "src/bin/b22.rs"
+
+[[bin]]
+name = "drill-g1"
+path = "src/bin/g1.rs"
+
+[[bin]]
+name = "drill-g2"
+path = "src/bin/g2.rs"
+
+[[bin]]
+name = "drill-g3"
+path = "src/bin/g3.rs"
+
+[[bin]]
+name = "drill-g4"
+path = "src/bin/g4.rs"
+
+[[bin]]
+name = "drill-s1"
+path = "src/bin/s1.rs"
+
+[[bin]]
+name = "drill-s2"
+path = "src/bin/s2.rs"
+
+[[bin]]
+name = "drill-s3"
+path = "src/bin/s3.rs"
+
+[[bin]]
+name = "drill-t1"
+path = "src/bin/t1.rs"
+
+[[bin]]
+name = "drill-t2"
+path = "src/bin/t2.rs"
+
+[[bin]]
+name = "drill-t3"
+path = "src/bin/t3.rs"
+
+[[bin]]
+name = "drill-t4"
+path = "src/bin/t4.rs"
+
+[[bin]]
+name = "drill-p1"
+path = "src/bin/p1.rs"
+
+[[bin]]
+name = "drill-p2"
+path = "src/bin/p2.rs"
+
+[[bin]]
+name = "drill-p3"
+path = "src/bin/p3.rs"
 
 [dependencies]
 proconio = { version = "=0.4.5", features = ["derive"] }

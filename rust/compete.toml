@@ -42,7 +42,7 @@ dev-dependencies = ''''''
 [new]
 kind = "cargo-compete"
 platform = "atcoder"
-path = "./{{ contest }}"
+path = "./contests/{{ contest }}"
 
 [test]
 

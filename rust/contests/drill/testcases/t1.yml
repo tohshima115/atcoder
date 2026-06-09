@@ -1,0 +1,14 @@
+---
+type: Batch
+timelimit: 2000ms
+match: Lines
+
+cases:
+  - name: sample1
+    in: |
+      3 4
+      #..#
+      .##.
+      #..#
+    out: |
+      6

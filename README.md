@@ -148,12 +148,19 @@ cd ..
 
 ## ログイン更新
 
-REVEL_SESSION の有効期限は半年程度。`not login` になったら以下を更新:
+REVEL_SESSION の有効期限は半年程度。ただし期限前でもサーバ側で無効化される
+ことがある (特にブラウザでログインし直すと古いセッションが無効化される)。
+`not login` や `cargo compete new` で Username/Password を要求されたら、
+**3つのツール全部**の cookie を更新する (1つでも漏れるとそのツールだけ弾かれる):
 
 1. ブラウザの DevTools → Application → Cookies → `https://atcoder.jp` → `REVEL_SESSION` の値をコピー
-2. `~/.config/atcoder-cli-nodejs/session.json` の `REVEL_SESSION=` の値を差し替え
-3. `~/.local/share/online-judge-tools/cookie.jar` の `REVEL_SESSION="..."` の `"..."` の中身を差し替え
-4. `acc session` と `oj login --check https://atcoder.jp/` で確認
+2. **acc**: `~/.config/atcoder-cli-nodejs/session.json` の `REVEL_SESSION=` の値を差し替え
+3. **oj**: `~/.local/share/online-judge-tools/cookie.jar` の `REVEL_SESSION="..."` の `"..."` の中身を差し替え
+4. **cargo-compete**: `~/.local/share/cargo-compete/cookies.jsonl` の `"raw_cookie":"REVEL_SESSION=..."` の値を差し替え (←忘れやすい。これが漏れると `cargo compete new` で Username/Password を要求される)
+5. `acc session` と `oj login --check https://atcoder.jp/` で確認 (cargo-compete は次の `cargo compete new` で確認)
+
+> 補足: 開催中の問題ページを無認証の `curl` で叩くと 404 が返る (参加者にしか
+> 見えないため)。これは「未開始」の証拠にはならない。ブラウザで見えていれば取得可能。
 
 ## AtCoder Profile
 
