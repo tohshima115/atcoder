@@ -39,6 +39,7 @@ notes/
 ## 📚 reference
 
 - [[hashmap-hashset]] — `HashMap` / `HashSet` 頻出操作まとめ
+- [[cargo-compete-test-pitfalls]] — cct の偽WA（空出力・matchモード・noteを読む）
 
 ## 🗒 drills
 
@@ -56,7 +57,7 @@ notes/
 [[tessoku-a03]] · [[tessoku-a04]] · [[tessoku-b03]] · [[tessoku-b04]]
 
 ### abc
-[[abc350a]] · [[abc350b]] · [[abc353a]] · [[abc462b]] · [[abc462c]] · [[abc462d]]
+[[abc350a]] · [[abc350b]] · [[abc353a]] · [[abc462a]] · [[abc462b]] · [[abc462c]] · [[abc462d]]
 
 ---
 
