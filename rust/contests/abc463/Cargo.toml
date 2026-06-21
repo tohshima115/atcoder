@@ -1,0 +1,63 @@
+[package]
+name = "abc463"
+version = "0.1.0"
+edition = "2021"
+
+[package.metadata.cargo-compete.bin]
+abc463-a = { alias = "a", problem = "https://atcoder.jp/contests/abc463/tasks/abc463_a" }
+abc463-b = { alias = "b", problem = "https://atcoder.jp/contests/abc463/tasks/abc463_b" }
+abc463-c = { alias = "c", problem = "https://atcoder.jp/contests/abc463/tasks/abc463_c" }
+abc463-d = { alias = "d", problem = "https://atcoder.jp/contests/abc463/tasks/abc463_d" }
+abc463-e = { alias = "e", problem = "https://atcoder.jp/contests/abc463/tasks/abc463_e" }
+abc463-f = { alias = "f", problem = "https://atcoder.jp/contests/abc463/tasks/abc463_f" }
+abc463-g = { alias = "g", problem = "https://atcoder.jp/contests/abc463/tasks/abc463_g" }
+
+[[bin]]
+name = "abc463-a"
+path = "src/bin/a.rs"
+
+[[bin]]
+name = "abc463-b"
+path = "src/bin/b.rs"
+
+[[bin]]
+name = "abc463-c"
+path = "src/bin/c.rs"
+
+[[bin]]
+name = "abc463-d"
+path = "src/bin/d.rs"
+
+[[bin]]
+name = "abc463-e"
+path = "src/bin/e.rs"
+
+[[bin]]
+name = "abc463-f"
+path = "src/bin/f.rs"
+
+[[bin]]
+name = "abc463-g"
+path = "src/bin/g.rs"
+
+[dependencies]
+proconio = { version = "=0.4.5", features = ["derive"] }
+itertools = "=0.12.1"
+ac-library-rs = "=0.1.1"
+num = "=0.4.3"
+num-integer = "=0.1.46"
+num-traits = "=0.2.19"
+rand = "=0.8.5"
+rand_chacha = "=0.3.1"
+regex = "=1.10.4"
+petgraph = "=0.6.5"
+indexmap = "=2.2.6"
+ordered-float = "=4.2.0"
+rustc-hash = "=1.1.0"
+smallvec = "=1.13.2"
+fixedbitset = "=0.5.7"
+superslice = "=1.0.0"
+maplit = "=1.0.2"
+bstr = "=1.9.1"
+
+[dev-dependencies]

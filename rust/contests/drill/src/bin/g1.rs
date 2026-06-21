@@ -6,5 +6,15 @@
 use proconio::input;
 
 fn main() {
+    input! {
+        h: usize,
+        w: usize,
+        grid: [[i64;w];h],
+        q: usize,
+        query: [(usize, usize); q]
+    }
+    for &(r, c) in &query{
+        println!("{}", grid[r-1][c-1])
+    }
     // TODO: 自分で実装する
 }
