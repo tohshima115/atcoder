@@ -40,6 +40,18 @@ drill-t4 = { alias = "t4", problem = "https://atcoder.jp/contests/drill/tasks/dr
 drill-p1 = { alias = "p1", problem = "https://atcoder.jp/contests/drill/tasks/drill_p1" }
 drill-p2 = { alias = "p2", problem = "https://atcoder.jp/contests/drill/tasks/drill_p2" }
 drill-p3 = { alias = "p3", problem = "https://atcoder.jp/contests/drill/tasks/drill_p3" }
+drill-c1 = { alias = "c1", problem = "https://atcoder.jp/contests/drill/tasks/drill_c1" }
+drill-c2 = { alias = "c2", problem = "https://atcoder.jp/contests/drill/tasks/drill_c2" }
+drill-c3 = { alias = "c3", problem = "https://atcoder.jp/contests/drill/tasks/drill_c3" }
+drill-c4 = { alias = "c4", problem = "https://atcoder.jp/contests/drill/tasks/drill_c4" }
+drill-c5 = { alias = "c5", problem = "https://atcoder.jp/contests/drill/tasks/drill_c5" }
+drill-c6 = { alias = "c6", problem = "https://atcoder.jp/contests/drill/tasks/drill_c6" }
+drill-c7 = { alias = "c7", problem = "https://atcoder.jp/contests/drill/tasks/drill_c7" }
+drill-c8 = { alias = "c8", problem = "https://atcoder.jp/contests/drill/tasks/drill_c8" }
+drill-c9 = { alias = "c9", problem = "https://atcoder.jp/contests/drill/tasks/drill_c9" }
+drill-c10 = { alias = "c10", problem = "https://atcoder.jp/contests/drill/tasks/drill_c10" }
+drill-c11 = { alias = "c11", problem = "https://atcoder.jp/contests/drill/tasks/drill_c11" }
+drill-c12 = { alias = "c12", problem = "https://atcoder.jp/contests/drill/tasks/drill_c12" }
 
 [[bin]]
 name = "drill-b1"
@@ -184,6 +196,54 @@ path = "src/bin/p2.rs"
 [[bin]]
 name = "drill-p3"
 path = "src/bin/p3.rs"
+
+[[bin]]
+name = "drill-c1"
+path = "src/bin/c1.rs"
+
+[[bin]]
+name = "drill-c2"
+path = "src/bin/c2.rs"
+
+[[bin]]
+name = "drill-c3"
+path = "src/bin/c3.rs"
+
+[[bin]]
+name = "drill-c4"
+path = "src/bin/c4.rs"
+
+[[bin]]
+name = "drill-c5"
+path = "src/bin/c5.rs"
+
+[[bin]]
+name = "drill-c6"
+path = "src/bin/c6.rs"
+
+[[bin]]
+name = "drill-c7"
+path = "src/bin/c7.rs"
+
+[[bin]]
+name = "drill-c8"
+path = "src/bin/c8.rs"
+
+[[bin]]
+name = "drill-c9"
+path = "src/bin/c9.rs"
+
+[[bin]]
+name = "drill-c10"
+path = "src/bin/c10.rs"
+
+[[bin]]
+name = "drill-c11"
+path = "src/bin/c11.rs"
+
+[[bin]]
+name = "drill-c12"
+path = "src/bin/c12.rs"
 
 [dependencies]
 proconio = { version = "=0.4.5", features = ["derive"] }
