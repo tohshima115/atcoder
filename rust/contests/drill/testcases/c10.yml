@@ -1,0 +1,27 @@
+---
+type: Batch
+timelimit: 2000ms
+match: Lines
+
+cases:
+  - name: sample1
+    in: |
+      3 3
+      S..
+      .#.
+      ..G
+    out: |
+      4
+  - name: sample2
+    in: |
+      2 2
+      S#
+      #G
+    out: |
+      -1
+  - name: sample3
+    in: |
+      1 2
+      SG
+    out: |
+      1
