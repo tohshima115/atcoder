@@ -7,8 +7,12 @@ use proconio::input;
 fn main() {
     input! {
         n: usize,
-        t: [i64; n],
+        mut t: [i64; n],
     }
-    let _ = (n, t);
-    // TODO
+    t.sort();
+    let mut ans: i64 = 0;
+    for i in 0..n {
+        ans += t[i] * (n as i64 - i as i64);
+    }
+    println!("{}", ans);
 }
