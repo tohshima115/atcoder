@@ -10,9 +10,6 @@ fn main() {
         mut a: [i64; n],
     }
     a.sort();
-    let mut sum: i64 = 0; 
-    for i in 0..(n / 2){
-        sum += a[i*2 +1] - a[i*2];
-    }
-    println!("{}", sum);
+    let ans: i64 = a.chunks(2).map(|p| p[1] - p[0]).sum();
+    println!("{}", ans);
 }
