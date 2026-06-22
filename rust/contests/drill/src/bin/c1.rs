@@ -7,8 +7,12 @@ use proconio::input;
 fn main() {
     input! {
         n: usize,
-        a: [i64; n],
+        mut a: [i64; n],
     }
-    let _ = (n, a);
-    // TODO: ソートして step_by(2) で a[i+1]-a[i] を足す
+    a.sort();
+    let mut sum: i64 = 0; 
+    for i in 0..(n / 2){
+        sum += a[i*2 +1] - a[i*2];
+    }
+    println!("{}", sum);
 }
