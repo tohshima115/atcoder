@@ -11,6 +11,25 @@ fn main() {
         k: usize,
         w: [i64; n],
     }
-    let _ = (n, k, w);
-    // TODO
+    fn ok(cost:i64) {
+        let mut weight: i64 = 0;
+        let mut count: i64 = 1;
+        for i in 0..n {
+            if weight + w[i] <= cost {
+                weight += w[i];
+            }else{
+                weight = 0;
+                count += 1;
+            }
+        }
+        return;
+        count <= k;
+    }
+    let mut lo = *w.iter().max().unwrap(); // 1個でも積めないとダメなので下限はmax
+    let mut hi = w.iter().sum::<i64>();    // 全部1台に積む
+    while lo < hi {
+        let mid = (lo + hi) / 2;
+        if ok(mid) { hi = mid; } else { lo = mid + 1; }
+    }
+    println!("{}", lo);
 }
