@@ -6,6 +6,8 @@ tags:
   - hashmap
   - イベントソート
   - オフバイワン
+  - 可変参照
+  - get_mut
 problem: abc464c
 date: 2026-06-27
 difficulty: abc-C
@@ -97,6 +99,58 @@ if *map.get(&a).unwrap() == 1 {
 ```
 
 `A==B`（色が変わらない鳥）も、減らして同じ色を増やせば `len` が変わらず辻褄が合う。
+
+**知識レベル: 🟢 実装可能**
+
+#### もっとシンプルに：「減らしてから 0 判定」（後日レビュー）
+
+上の「1 だったら remove」は、**先に減らしてから 0 になったか見る**ほうが素直。`a` は最初のループで必ず登録済みなので `entry().or_insert(0)`（無いかも、の書き方）ではなく `get_mut(&a).unwrap()` でいい。
+
+```rust
+let c = bird_list.get_mut(&a).unwrap(); // c: &mut i64（HashMap の中身への可変参照）
+*c -= 1;
+if *c == 0 {            // *c が c の最後の使用 → 借用が切れる
+    bird_list.remove(&a); // のでここで remove してもエラーにならない（NLL）
+}
+*bird_list.entry(b).or_insert(0) += 1;
+```
+
+ポイントは順番。「減らす → 判定 → 消す」にすると、`if *c == 0` が `c` の最後の使用になり、その直後の `remove` で借用エラーにならない（Non-Lexical Lifetimes）。
+
+**知識レベル: 🟢 実装可能**
+
+### 可変参照（`&mut T`）は「コピー」ではなく「場所への矢印」
+
+`get_mut(&a)` が返すのは値のコピーではなく **HashMap の中の値そのものへの可変参照 `&mut i64`**。だから `*c -= 1` が HashMap 側に波及する。
+
+```rust
+// ① get：&i64 を * でコピー → 独立した値。HashMap は変わらない
+let c = *bird_list.get(&a).unwrap();
+c -= 1;                              // HashMap に影響なし
+
+// ② get_mut：&mut i64 → * で参照先（＝中身）を直接書き換え
+let c = bird_list.get_mut(&a).unwrap();
+*c -= 1;                            // HashMap の中身が変わる
+```
+
+`usize` の代入はコピーされる感覚に慣れていると引っかかるが、`&` / `&mut` は値のコピーではなく「その場所を指す矢印」。`*` で参照を辿ると元のデータに直接届く。元コードの `*map.entry(a).or_insert(0) -= 1` も同じ仕組み（`or_insert` が `&mut i64` を返す）。
+
+**知識レベル: 🔵 説明可能** — 「参照は場所、`*` で実体を書き換える」と言葉で説明できるようになった。
+
+### 同じ列を 2 本持たない：`partition_point` は記録配列に直接かける
+
+提出版は二分探索用に `ls`（`d` だけの配列）を別に作っていたが、`bird_cnt` が既に `(種類数, d)` を持っているので不要。`bird_cnt` 自身に `partition_point` をかければ `ls` がまるごと消せる。
+
+```rust
+// let ls: Vec<usize> = ... ← 不要
+
+for x in 1..=m {
+    let i = bird_cnt.partition_point(|&(_, d)| d <= x);
+    println!("{}", bird_cnt[i - 1].0);
+}
+```
+
+`bird` を `d` でソート済み → `bird_cnt` も `d` 昇順 → そのまま二分探索できる。「同じ情報を 2 つの配列で持っていないか？」は冗長さを見つけるチェックポイント。
 
 **知識レベル: 🟢 実装可能**
 
