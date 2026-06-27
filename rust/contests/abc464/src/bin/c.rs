@@ -24,9 +24,8 @@ fn main() {
         bird_cnt.push((bird_list.len(),d));
     }
     let ls: Vec<usize> = bird.iter().map(|&(_a, d, _b)| d).collect();
-    for x in 0..m {
+    for x in 1..=m {
         let i = ls.partition_point(|&l| l <= x );
-        println!("{}", bird_cnt[i].0);
+        println!("{}", bird_cnt[i-1].0);
     }
-    println!("{}", n);
 }
