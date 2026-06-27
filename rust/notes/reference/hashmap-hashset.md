@@ -64,8 +64,10 @@ let d: HashSet<i64> = a.difference(&b).copied().collect();   // {1}       a に�
 
 ### 使いどころ
 - 種類数を数える（[[drill-a47]]）
-- 「既に出たか」を O(1) で問い合わせ
+- 「既に出たか」を O(1) で問い合わせ（[[drill-c6]] 和=K の two-sum 判定）
 - 重複削除（順序は失う）
+
+> Vec で同じ insert/contains/remove をやると contains/remove が O(N) になり、ループ内で使うと O(N²)。Vec との使い分け・配列の要素操作は [[vec-slice-operations]]。
 
 知識レベル: 🟢 実装可能
 

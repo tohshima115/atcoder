@@ -20,7 +20,7 @@ date: 2026-06-06
 - ✅ 数字⇄文字・`String`⇄`Vec<char>` → [[string-char-conversion]]
 
 ## Vec・配列
-- 🕳 1次元の初期化 `vec![0; n]`、`push`/`pop`/index
+- ✅ 1次元の基本操作（`push`/`pop`/`v[i]=`/`iter_mut`/`fill`/`retain`/`position`）・HashSet との計算量比較 → [[vec-slice-operations]]
 - ✅ **2次元配列**：生成 `vec![vec![0; w]; h]`、`Vec<String>→Vec<Vec<_>>`、走査 → [[2d-grid-and-prefix]]
 - ✅ ソート・逆順・`cmp`/`Ordering`・破壊的操作 → [[sort-cmp-ordering]]
 - ✅ イテレータ操作カタログ（map/filter/find/windows/fold…）→ [[iterator-catalog]]
