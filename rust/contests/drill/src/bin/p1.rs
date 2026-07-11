@@ -6,5 +6,18 @@
 use proconio::input;
 
 fn main() {
+    input! {
+        h: usize,
+        w: usize,
+        g: [[i64; w];h],
+        q: usize,
+        query: [(usize, usize, usize, usize);q]
+    }
+    let mut sum_grid: Vec<Vec<i64>> = vec![vec![0i64;w+1];h+1];
+    for i in 1..=h{
+        for j in 1..=w{
+            sum_grid[j][i] = sum_grid[j-1][i] + sum_grid[j][i-1] - sum_grid[j-1][i-1] + g[j-1][i-1];
+        }
+    }
     // TODO: 自分で実装する
 }

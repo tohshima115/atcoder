@@ -107,7 +107,8 @@ oj d https://atcoder.jp/contests/abcXXX/tasks/abcXXX_a
 
 ```sh
 # Rust
-cd rust && cargo compete new abcXXX && cd abcXXX
+cd rust
+cargo compete new abcXXX && cd abcXXX
 apmd abcXXX --all                    # 全問の問題文をMDで一括取得
 
 # TypeScript
