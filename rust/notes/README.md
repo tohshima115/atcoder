@@ -40,6 +40,7 @@ notes/
 
 - [[hashmap-hashset]] — `HashMap` / `HashSet` 頻出操作まとめ
 - [[cargo-compete-test-pitfalls]] — cct の偽WA（空出力・matchモード・noteを読む）
+- [[str-string-methods]] — `&str`/`String` の頻出メソッド（trim/split/parse・collect不要の見分け）
 
 ## 🗒 drills
 
