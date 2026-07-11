@@ -4,10 +4,6 @@ fn main() {
     input! {
         x: String,
     }
-    for i in (0..x.len()).rev() {
-        if x[i] == '0' | x[i] == '.' {
-            
-        }
-    }
-    println!("{}", n);
+    let ans = x.trim_end_matches('0').trim_end_matches('.');
+    println!("{}", ans);
 }
