@@ -7,10 +7,7 @@ fn main() {
         b: usize
     }
     let mut chars: Vec<char> = s.chars().collect();
-    let sa = chars[a -1];
-    let sb = chars[b -1];
-    chars[a - 1] = sb;
-    chars[b - 1] = sa;
+    chars.swap(a-1,b-1);
     let ans: String = chars.iter().collect();
     println!("{}", ans);
 }
