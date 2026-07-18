@@ -1,8 +1,18 @@
 use proconio::input;
 
 fn main() {
-    input! {
-        n: usize,
+    let mut ans: Vec<i64> = vec![];
+    for _i in 0..100{
+        input! {
+            a: i64,
+        }
+        ans.push(a);
+        if a == 0 {
+            break;
+        }
     }
-    println!("{}", n);
+    ans.reverse();
+    for &a in & ans{
+        println!("{}", a);
+    }
 }
