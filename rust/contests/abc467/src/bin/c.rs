@@ -9,7 +9,7 @@ fn main() {
     }
     let mut setx: Vec<i64> = vec![];
     for i in 0..n-1 {
-        setx.push((seta[i] + seta[i+1]) % 2);
+        setx.push((seta[i] + seta[i+1] - setb[i]) % 2);
     }
     let mut p:Vec<usize> = vec![];
     for i in 0..n-1 {
