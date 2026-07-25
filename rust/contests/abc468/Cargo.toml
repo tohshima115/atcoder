@@ -1,0 +1,63 @@
+[package]
+name = "abc468"
+version = "0.1.0"
+edition = "2021"
+
+[package.metadata.cargo-compete.bin]
+abc468-a = { alias = "a", problem = "https://atcoder.jp/contests/abc468/tasks/abc468_a" }
+abc468-b = { alias = "b", problem = "https://atcoder.jp/contests/abc468/tasks/abc468_b" }
+abc468-c = { alias = "c", problem = "https://atcoder.jp/contests/abc468/tasks/abc468_c" }
+abc468-d = { alias = "d", problem = "https://atcoder.jp/contests/abc468/tasks/abc468_d" }
+abc468-e = { alias = "e", problem = "https://atcoder.jp/contests/abc468/tasks/abc468_e" }
+abc468-f = { alias = "f", problem = "https://atcoder.jp/contests/abc468/tasks/abc468_f" }
+abc468-g = { alias = "g", problem = "https://atcoder.jp/contests/abc468/tasks/abc468_g" }
+
+[[bin]]
+name = "abc468-a"
+path = "src/bin/a.rs"
+
+[[bin]]
+name = "abc468-b"
+path = "src/bin/b.rs"
+
+[[bin]]
+name = "abc468-c"
+path = "src/bin/c.rs"
+
+[[bin]]
+name = "abc468-d"
+path = "src/bin/d.rs"
+
+[[bin]]
+name = "abc468-e"
+path = "src/bin/e.rs"
+
+[[bin]]
+name = "abc468-f"
+path = "src/bin/f.rs"
+
+[[bin]]
+name = "abc468-g"
+path = "src/bin/g.rs"
+
+[dependencies]
+proconio = { version = "=0.4.5", features = ["derive"] }
+itertools = "=0.12.1"
+ac-library-rs = "=0.1.1"
+num = "=0.4.3"
+num-integer = "=0.1.46"
+num-traits = "=0.2.19"
+rand = "=0.8.5"
+rand_chacha = "=0.3.1"
+regex = "=1.10.4"
+petgraph = "=0.6.5"
+indexmap = "=2.2.6"
+ordered-float = "=4.2.0"
+rustc-hash = "=1.1.0"
+smallvec = "=1.13.2"
+fixedbitset = "=0.5.7"
+superslice = "=1.0.0"
+maplit = "=1.0.2"
+bstr = "=1.9.1"
+
+[dev-dependencies]
