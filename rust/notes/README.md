@@ -58,7 +58,7 @@ notes/
 [[tessoku-a03]] · [[tessoku-a04]] · [[tessoku-b03]] · [[tessoku-b04]]
 
 ### abc
-[[abc322d]] · [[abc350a]] · [[abc350b]] · [[abc353a]] · [[abc462a]] · [[abc462b]] · [[abc462c]] · [[abc462d]]
+[[abc322d]] · [[abc350a]] · [[abc350b]] · [[abc353a]] · [[abc462a]] · [[abc462b]] · [[abc462c]] · [[abc462d]] · [[abc468d]]
 
 ---
 
